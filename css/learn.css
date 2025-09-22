@@ -1,0 +1,613 @@
+:root {
+    --primary-color: #0a1117;
+    --secondary-color: #16213e;
+    --accent-color: #ceaaff;
+    --background-color: #0a1117;
+    --font-color: #fff;
+    --primary-font: 'Fredoka', sans-serif;
+    --border-radius: 5px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+    --extra-color: #ffb4d3;
+    --border-color: #2a3744;
+}
+
+/* Base styles */
+
+body {
+            font-family: var(--primary-font);
+            background-color: var(--background-color); 
+            color: white;
+        }
+
+html, body {
+  overflow-x: hidden; /* voorkomt horizontale scroll */
+}
+
+/* Navbar section */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlinks {
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.navlinks a {
+
+    
+
+    text-decoration: none;
+    font-size: 17px;
+    color: var(--font-color);
+    margin: 10px;
+    padding: 0;
+    margin-right: 40px;
+    transition: color 300ms ease-in-out;
+
+    
+
+}
+
+.navlinks a:hover {
+    color: var(--extra-color);
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.logo {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+    padding: 0;
+    margin: 15px 30px;
+    margin-left: 220px;
+}
+
+.pink {
+    color: var(--extra-color);
+}
+
+.login-btn {
+    background-color: #243241;
+    color: var(--font-color);
+    
+    letter-spacing: 1px;
+
+
+    margin-bottom: 27px;
+    margin-top: 17px;
+    margin-right: 380px;
+    
+    border-radius: 10px;
+    border: none;
+    
+    padding: 10px;
+    width: 70px;
+}
+
+.login-btn:hover {
+    background-color: var(--extra-color);
+    color: black;
+    transition: var(--transition);
+}
+
+/* Hero first */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero-substars {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-subtitle {
+    display: flex;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-right: 200px;
+    align-self: flex-end;
+    
+}
+
+.hero-stars {
+    display: flex;
+    margin-right: 90px;
+    margin-bottom: 2px;
+    
+}
+
+/* Hero DAO Buttons */
+
+.hero-dao {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+    border: none;
+
+    height: 50px;
+    margin-left: 50px;
+
+
+
+}
+
+.hero-dao button {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+    padding: 0px;
+    font-size: 13px;
+    border: none;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #243241;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    
+    
+
+}
+
+.hero-dao2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    gap: 10px;
+    font-family: var(--primary-font);
+
+    flex-wrap: wrap;
+    border: none;
+    margin-left: 50px;
+    margin-top: 9px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero-dao2 button {
+    padding: 0px;
+    font-size: 13px;
+    border: none;
+
+    height: 40px;
+    border-radius: 20px;
+    background-color: #243241;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+.defi {
+    width: 100px;
+    color: #ff9e9e;
+}
+
+/* DAO buttons color */
+
+.impact {
+    width: 120px;
+    color: #23c9de;
+}
+
+.more {
+    width: 90px;
+    letter-spacing: 1px;
+    color: #707f8d;
+}
+
+.investment {
+    color: var(--extra-color);
+}
+
+.startup {
+    color: #ffc24c;
+}
+
+.service {
+    color: #d387f7;
+}
+
+.community {
+    color: #77e6ff;
+}
+
+/* Hero Images */
+
+.hero-image {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    width: 1630px;
+    height: 400px;
+
+
+}
+
+#image {
+    margin-bottom: 20px;
+}
+
+.hero-image-text {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+
+    color: black;
+    background-color: var(--extra-color);
+
+    border-radius: 20px;
+    width: 330px;
+    height: 40px;
+
+    position: absolute;
+    box-shadow: magenta 0px 0px 100px;
+
+    
+}
+
+.hero-more-text {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+/*  Fourth section  */
+
+.stars2 {
+    margin-left: 40px;
+}
+
+.designed {
+    margin-left: 150px;
+}
+
+.organisation {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    height: 30px;
+    font-weight: bold;
+    color: #37424d;
+    margin-left: 20px;
+}
+
+.smart {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #37424d;
+    margin-left: 20px;
+    
+}
+
+.fund {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    height: 30px;
+    
+    font-weight: bold;
+    color: #37424d;
+
+    
+}
+
+.launch {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2.4rem;
+    color: var(--extra-color);
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.member {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    height: 30px;
+    font-weight: bold;
+    color: #37424d;
+    margin-left: 20px;
+}
+
+.cont {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #37424d;
+    margin-left: 20px;
+}
+
+.oper  {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 2rem;
+    height: 30px;
+    font-weight: bold;
+    color: #37424d;
+    margin-left: 20px;
+    
+}
+
+/* Fifth section */
+
+.hero-fifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 1300px;
+    margin-right: 195px;
+
+}
+
+.starz1 {
+    display: flex;
+    margin-right: 100px;
+    margin-bottom: 90px;
+    
+}
+
+.starz2 {
+     display: flex;
+     margin-bottom: 90px;
+     
+
+}
+
+.works {
+    background-color: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-left: 100px;
+
+    
+}
+
+.hero-boxes {
+    display: flex;
+    background-color: none;
+    border: none;
+    gap: 30px;
+    margin-bottom: 0px;
+
+    
+    
+}
+
+.eth {
+    display: flex;
+    background-color: #121e28;
+    border: #2a3744 solid 1px;
+    padding: 10px 10px 10px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #708bf4 0px 0px 20px;
+}
+
+.poly {
+    display: flex;
+    background-color: #121e28;
+    border: #2a3744 solid 1px;
+    padding: 20px 20px 20px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: #935bf2 0px 0px 20px;
+}
+
+.safe {
+    display: flex;
+    background-color: #121e28;
+    border: #2a3744 solid 1px;
+    padding: 15px 15px 15px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: #008c72 0 0 20px;
+}
+
+.snap {
+    display: flex;
+    background-color: #121e28;
+    border: #2a3744 solid 1px;
+    padding: 20px 20px 20px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: #ffc645 0 0 20px;
+}
+
+.ens {
+    display: flex;
+    background-color: #121e28;
+    border: #2a3744 solid 1px;
+    padding: 20px 20px 20px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: #8fa7ff 0 0 20px;
+}
+
+.sea {
+    display: flex;
+    background-color: #121e28;
+    border: #2a3744 solid 1px;
+    padding: 20px 20px 20px;
+    border-radius: 20px;
+    align-items: center;
+    box-shadow: #3491ee 0 0 20px;
+}
+
+.hero-box-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin: 0px;
+}
+
+.eth-text {
+    position: absolute;
+    
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 180px;
+}
+
+.snap-text {
+    position: absolute;
+    
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 180px;
+    margin-left: 3px;
+}
+
+.poly-text {
+    position: absolute;
+    
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 180px;
+    margin-left: 10px;
+}
+
+.safe-text {
+    position: absolute;
+    
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 180px;
+
+}
+
+.ens-text {
+    position: absolute;
+    
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 180px;
+    margin-left: 22px;
+}
+
+.sea-text {
+    position: absolute;
+    
+
+    font-family: sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 180px;
+    margin-left: 3px;
+}
+
+/* Footer */
+
+
+footer {
+    display: flex;
+    margin-top: 300px;
+    height: 180px;
+    background-color: #121e28;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-navbar {
+    font-family: sans-serif;
+    display: flex;
+    align-content: center;
+    gap: 60px;
+    font-size: 25px;
+    margin-left: 430px;
+}
+
+.footer-navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-legal a {
+    color: #ffc803;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    
+    gap: 5px;
+    margin-left: 70px;
+
+}
