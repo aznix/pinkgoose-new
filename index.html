@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Pink Goose</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+        <div class="logo">Pink<span class="pink"> Goose</span></div>
+        <ul class="navlinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pinklearn.html">Learn</a></li>
+            <li><a href="pinkabout.html">About</a></li>
+            <li><a href="pinkcontact.html">Contact</a></li>
+        </ul>
+        <button class="login-btn">Login</button>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <h1 class="hero-title">The easiest way to start a Goose</h1>
+        <p class="hero-para">An all-in-one platform to start, manage and grow a decentralized autonomous organization</p>
+        <button onclick="scrollDown()" class="hero-button">Get started</button>
+        <img src="images/arrow.png" alt="arrow" class="hero-arrow">
+
+        <!-- Subtitle with stars -->
+        <div class="hero-substars">
+            <img class="hero-stars" src="images/stars.png" alt="stars">
+            <p class="hero-subtitle">Ready for every project</p>
+        </div>
+
+        <!-- DAO buttons row 1 -->
+        <div class="hero-dao">
+            <button class="investment">Investment DAO</button>
+            <button class="startup">Startup DAO</button>
+            <button class="service">Service DAO</button>
+            <button class="community">Community DAO</button>
+        </div>
+
+        <!-- DAO buttons row 2 -->
+        <div class="hero-dao2">
+            <button class="impact">Impact DAO</button>
+            <button class="defi">DeFi DAO</button>
+            <button class="more">+ More</button>
+        </div>
+
+        <!-- Hero image with caption -->
+        <div class="hero-image">
+            <img id="image" src="images/imagee.png" alt="image" width="800" height="350">
+            <div class="hero-image-text">1000+ projects launched on Superdao</div>
+        </div>
+
+        <!-- Extra tagline -->
+        <div class="hero-more-text">
+            <p class="designed">Designed for the full journey
+                <img class="stars2" src="images/stars2.png" alt="stars" width="90">
+            </p>
+        </div>
+
+        <!-- Features -->
+        <div class="organisation"><p>Organisation design</p></div>
+        <div class="smart"><p>Smart contract development</p></div>
+        <div class="fund"><p>Fundraising</p></div>
+        <div class="launch"><p>Launch marketing</p></div>
+        <div class="member"><p>Member onboarding</p></div>
+        <div class="cont"><p>Contributor management</p></div>
+        <div class="oper"><p>GOOSE operations</p></div>
+
+        <!-- Partners section -->
+        <div class="hero-fifth">
+            <img class="starz1" src="images/starz1.png" alt="stars" width="200px">
+            <p class="works">Works with</p>
+            <img class="starz2" src="images/starz2.png" alt="stars" width="200px">
+        </div>
+
+        <!-- Partner logos -->
+        <div class="hero-boxes">
+            <div class="eth"><img src="images/eth.png" alt="eth" width="95" height="100"><p class="eth-text">Ethereum</p></div>
+            <div class="poly"><img src="images/polygon.png" alt="poly" width="70" height="70"><p class="poly-text">Polygon</p></div>
+            <div class="safe"><img src="images/safe.png" alt="safe" width="80" height="80"><p class="safe-text">Gnosis Safe</p></div>
+            <div class="snap"><img src="images/snapshot.png" alt="snap" width="70" height="70"><p class="snap-text">Snapshot</p></div>
+            <div class="ens"><img src="images/ENS.png" alt="ens" width="70" height="70"><p class="ens-text">ENS</p></div>
+            <div class="sea"><img src="images/opensea.png" alt="opensea" width="70" height="70"><p class="sea-text">OpenSea</p></div>
+        </div>
+
+        <!-- Help section -->
+        <div class="hero-help">
+            <p class="help">Help at every step</p>
+        </div>
+
+        <!-- Team / community images -->
+        <div class="hero-help-images">
+            <img class="glasses" src="images/glasses.png" alt="person" width="130" height="130">
+            <img class="asian" src="images/asian.png" alt="person" width="130" height="130">
+            <img class="orangehoodie" src="images/orangehoodie.png" alt="person" width="130" height="130">
+            <img class="pinkblouse" src="images/pinkblouse.png" alt="person" width="130" height="130">
+            <img class="bluedress" src="images/bluedress.png" alt="person" width="130" height="130">
+        </div>
+
+        <!-- Help section texts -->
+        <div class="hero-help-images-text1">
+            <p class="success">Success managers</p>
+            <img src="images/bluesinglestar.png" alt="star" width="30" height="30">
+            <p class="knowledge">Knowledge base</p>
+        </div>
+        <div class="hero-help-images-text2">
+            <p class="chat">Chat support</p>
+            <img src="images/purplesinglestar.png" alt="star" width="30" height="30">
+            <p class="tut">Tutorials</p>
+            <img src="images/yellowsinglestar.png" alt="star" width="30" height="30">
+            <p class="template">Templates</p>
+        </div>
+        <div class="hero-help-images-text3">
+            <p class="smartcon">Smart Contract development</p>
+            <img src="images/orangesinglestar.png" alt="star" width="30" height="30">
+            <p class="event">Events</p>
+        </div>
+        <div class="hero-help-images-text4">
+            <p class="edu">Edutcation</p>
+            <img src="images/goldsinglestar.png" alt="star" width="30" height="30">
+            <p class="guide">Guides</p>
+        </div>
+
+        <!-- Weekly letter -->
+        <div class="hero-weekly">
+            <p class="hero-week-text">Weekly digest</p>
+            <p class="hero-news-text">Latest news in DAOs and Web3</p>
+            <form class="subscribe-sec" action="submit email" method="post">
+                <input class="input-email" type="email" name="email" placeholder=" Your email">
+                <button class="sub-button" type="submit">Subscribe</button>
+            </form>
+        </div>
+
+        <!-- Press section -->
+        <div class="hero-press">
+            <p class="press">Press</p>
+            <img class="press-stars" src="images/press-stars.png" alt="stars" width="80">
+            <p><a class="see-all" href="">See all ➞</a></p>
+        </div>
+
+        <!-- Press articles -->
+        <div class="hero-press-boxes">
+            <div class="decrypt">
+                <img src="images/decrypt.png" alt="decrypt" class="decrypt-img" width="130" height="40">
+                <p class="de-1">Superdao Raises $10.5 Million to Build an 'All-in-One' DAO Platform</p>
+                <p class="de-2">Superdao aims to make it easier for online communities to build and launch DAOs</p>
+                <p><a class="de-read" href="">Read <img src="images/rightarrowread.png" height="10" alt="arrow"></a></p>
+            </div>
+            <div class="blockworks">
+                <img src="images/blockworks.png" alt="blockworks" class="blockworks-img" width="150" height="40">
+                <p class="block-1">The Y Combinator of Web3 Attracts Record Number of DAO Startups</p>
+                <p class="block-2">DAOs and related startups made up an "overwhelming number of applicants" for a Web3 accelerator's cohort this year</p>
+                <p><a class="block-read" href="">Read <img src="images/rightarrowread.png" height="10" alt="arrow"></a></p>
+            </div>
+            <div class="techcrunch">
+                <img src="images/techcrunch.png" alt="techcrunch" class="techcrunch-img" width="150" height="45">
+                <p class="tech-1">VC-backed DAO startups are racing to define what DAOs actually are</p>
+                <p class="tech-2">Not all 'decentralized autonomous organizations' are autonomous... or decentralized</p>
+                <p><a class="tech-read" href="">Read <img src="images/rightarrowread.png" height="10" alt="arrow"></a></p>
+            </div>
+        </div>
+
+        <!-- Podcast section -->
+        <div class="hero-podcast">
+            <img class="podcast-stars" src="images/starspodcast.png" alt="stars" width="80">
+            <p class="podcast">Podcasts</p>
+            <p><a class="see-allp" href="">See all ➞</a></p>
+        </div>
+
+        <!-- Podcast boxes -->
+        <div class="hero-podcast-boxes">
+            <div class="pomp">
+                <img class="pomp-img" src="images/pomp.jpg" alt="podcast" width="50">
+                <p class="pomp-text1">Understanding DAOs with Yury Lifshits</p>
+                <p class="pomp-text2">The Pomp Podcast by Anthony Pompliano</p>
+                <p class="pomp-listen"><a href="">Listen ➞</a></p>
+            </div>
+            <div class="unstop">
+                <img class="unstop-img" src="images/unstop.jpg" alt="podcast" width="50">
+                <p class="unstop-text1">Everything You Need to Know About DAOs with Yury Lifshits from Superdao</p>
+                <p class="unstop-text2">The Unstoppable Podcast by Josh Gordon</p>
+                <p class="unstop-listen"><a href="">Watch ➞</a></p>
+            </div>
+            <div class="zima">
+                <img class="zima-img" src="images/zima.jpg" alt="podcast" width="50">
+                <p class="zima-text1">Yury Lifshits Superdao: The "Shopify" for DAOs</p>
+                <p class="zima-text2">Zima Red by Andrew Stainwold</p>
+                <p class="zima-listen"><a href="">Listen ➞</a></p>
+            </div>
+        </div>
+
+        <!-- Ending -->
+        <div class="hero-end">
+            <img class="last-stars" src="images/laststars.png" alt="stars" width="100">
+            <p class="end-text1">What's your GOOSE idea?</p>
+            <p class="end-text2">Let's chat and see how we can help</p>
+
+            <!-- Social media links -->
+            <div class="socials-end">
+                <div class="telegram">
+                    <img class="tele-img" src="images/telegram.png" alt="telegram" width="26" height="26">
+                    <div class="tele-text">
+                        <p class="telegram-text">Telegram</p>
+                        <p class="telegram-at">@superdao_team</p>
+                    </div>
+                </div>
+                <div class="email">
+                    <img class="email-img" src="images/emaillogo.png" alt="email" width="26" height="26">
+                    <div class="email-text">
+                        <p class="email-text2">Email</p>
+                        <p class="email-at">hello@superdao.co</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <nav class="footer-navbar">
+            <p class="footer-about"><a href="pinkabout.html">About</a></p>
+            <p class="footer-jobs"><a href="">Jobs</a></p>        
+            <p class="footer-legal"><a href="">Legal</a></p>
+            <div class="footer-socials">
+                <a target="_blank" rel="noopener noreferrer" href="https://x.com"><img src="images/footertwitter.png" alt="twitter" class="footer-twitter" width="70"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://web.telegram.org"><img src="images/footertelegram.png" alt="telegram" class="footer-telegram" width="70"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com"><img src="images/footeryoutube.png" alt="youtube" class="footer-youtube" width="70"></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.discord.com"><img src="images/footerdiscord.png" alt="discord" class="footer-discord" width="70"></a>
+            </div>
+        </nav>
+    </footer>
+    
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- Javascript -->
+    <script src="script.js" defer></script>
+
+    
+</body>
+</html>
